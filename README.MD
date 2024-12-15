@@ -47,7 +47,7 @@ To install this application, please follow the steps below:
     ![screenshot of node index.js command](./assets/images/install-5.png)
 
 ## Usage
-[Click here to watch a short video demonstrating how to use the application]()
+[Click here to watch a short video demonstrating how to use the application](https://drive.google.com/file/d/1R47gDt0UXZKJ6vlZXFB1Dh_7QUe4Qiuv/view)
 
 To create your generatedREADME.md file, follow these steps:
 1. Complete the step above (Installation section) & run the application with the command: node index.js

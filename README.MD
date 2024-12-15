@@ -5,8 +5,8 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributors](#contributors)
 - [Test](#test)
+- [Contributors](#contributors)
 - [License](#license)
 - [Questions](#questions)
 
@@ -50,17 +50,26 @@ To install this application, please follow the steps below:
 [Click here to watch a short video demonstrating how to use the application]()
 
 To create your generatedREADME.md file, follow these steps:
-1. Complete the Installation steps above
-2. Run the application
-    node index.js
-![screenshot of node index.js command]()
-3. Follow the prompts
+1. Complete the step above (Installation section) & run the application with the command: node index.js
+
+    ![screenshot of node index.js command](./assets/images/install-5.png)
+
+2. Follow the prompts
 - You will input information for 9 prompts: project title, description, installation, usage, contribution, test, license, GitHub username, & email.
-![screenshot of prompts in terminal]()
-4. View generatedREADME.md file
+
+    ![screenshot of README-generator prompts in terminal](./assets/images/usage-2.png)
+
+3. View generatedREADME.md file
 - You should see a new file (generatedREADME.md) in your README-generator directory. 
 - Open generatedREADME.md & read over your completed README file!
-![screenshot of newly generated README file]()
+
+    ![screenshot of newly generated README file](./assets/images/usage-3.png)
+
+## Test
+To test this application, you can type the following command into the terminal:
+- npm run test
+
+    ![screenshot of npm run test command in terminal](./assets/images/test.png)
 
 ## Contributors
 - [Lauren DeGrazia](https://github.com/LDegraz/README-generator.git) - Project Creator 
@@ -69,11 +78,6 @@ To create your generatedREADME.md file, follow these steps:
     - [index.js](./assets/starter-code/starter-index.js)
     - [package.json](./assets/starter-code/starter-package.json)
 - [Inquirer](https://www.npmjs.com/package/inquirer) - A collection of common interactive command-line user interfaces
-
-## Test
-To test this application, you can type the following command into the terminal:
-- npm run test
-![screenshot of npm run test command in terminal]()
 
 ## License
 This project is licensed under the MIT license. See below for details.

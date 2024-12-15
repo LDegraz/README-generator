@@ -43,17 +43,15 @@ This project is licensed under the ${license} license. For more information, ple
 function generateMarkdown(data) {
   return `# ${data.title}
 
-${renderLicenseBadge(data.license)}
-
 ## Description
 ${data.description}
 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
+- [License](#license)
 - [Questions](#questions)
 
 ## Installation
@@ -62,16 +60,18 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-${renderLicenseSection(data.license)}
-
 ## Contributing
 ${data.contributing}
 
 ## Tests
 ${data.tests}
 
+## License
+This project is licensed under the ${data.license} license.
+
 ## Questions
-If you have any questions, please feel free to contact me at ${data.email}. You can also find more of my work at [${data.github}](https://github.com/${data.github}).
+- GitHub: [${data.github}](
+- Email: ${data.email}
 `;
 }
 
